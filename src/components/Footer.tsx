@@ -34,12 +34,12 @@ const Footer = () => {
                 marlaaggency@gmail.com
               </a>
               <a
-                href="https://instagram.com/marla.agency"
+                href="https://www.instagram.com/marlaagency?igsh=MXY2ems0bWF6dTByMA=="
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-foreground transition-colors"
               >
-                @marla.agency
+                @marlaagency
               </a>
             </div>
           </div>
