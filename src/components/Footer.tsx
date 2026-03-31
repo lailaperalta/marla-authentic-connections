@@ -39,7 +39,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="hover:text-foreground transition-colors"
               >
-                @marla.agency
+                @marlaagency
               </a>
             </div>
           </div>
