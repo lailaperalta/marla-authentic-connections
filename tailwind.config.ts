@@ -13,7 +13,15 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        display: ["'Playfair Display'", "serif"],
+        body: ["'DM Sans'", "sans-serif"],
+      },
       colors: {
+        "warm-dark": "hsl(var(--warm-dark))",
+        "warm-sand": "hsl(var(--warm-sand))",
+        terracotta: "hsl(var(--terracotta))",
+        cream: "hsl(var(--cream))",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

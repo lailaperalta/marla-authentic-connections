@@ -1,0 +1,73 @@
+import { motion } from "framer-motion";
+
+const About = () => {
+  return (
+    <section id="nosotras" className="py-32 bg-card">
+      <div className="container mx-auto px-6 lg:px-16">
+        <div className="grid lg:grid-cols-2 gap-16 items-center">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="space-y-6"
+          >
+            <p className="text-sm font-body uppercase tracking-[0.3em] text-primary">
+              Sobre nosotras
+            </p>
+            <h2 className="text-4xl md:text-5xl font-display font-medium text-foreground leading-tight">
+              Martina & Laila
+            </h2>
+            <div className="space-y-4 font-body text-muted-foreground leading-relaxed">
+              <p>
+                Somos <strong className="text-foreground">Martina Lometti</strong> y{" "}
+                <strong className="text-foreground">Laila Peralta</strong>, las creadoras detrás de MARLA. Combinamos nuestra pasión por el contenido visual con una visión estratégica de marketing digital.
+              </p>
+              <p>
+                Creemos que las marcas que se destacan son las que se animan a comunicar de manera auténtica. Por eso, cada proyecto que tomamos tiene un enfoque único: entender tu esencia, traducirla en contenido real y conectarla con las personas correctas.
+              </p>
+              <p>
+                Desde UGC hasta campañas de paid ads, nuestro objetivo es simple: que tu marca sea visible, relevante y memorable.
+              </p>
+            </div>
+            <div className="flex gap-6 pt-4">
+              <a
+                href="https://instagram.com/martiilometti"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm font-body text-primary hover:text-foreground transition-colors underline underline-offset-4"
+              >
+                @martiilometti
+              </a>
+              <a
+                href="https://instagram.com/laila.peralta"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm font-body text-primary hover:text-foreground transition-colors underline underline-offset-4"
+              >
+                @laila.peralta
+              </a>
+            </div>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, scale: 0.95 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+            className="relative"
+          >
+            <div className="aspect-square bg-warm-sand rounded-sm flex items-center justify-center">
+              <span className="text-8xl font-display font-medium text-primary/30 select-none">
+                M&L
+              </span>
+            </div>
+            <div className="absolute -top-4 -right-4 w-24 h-24 border border-primary/20 rounded-sm" />
+          </motion.div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default About;
