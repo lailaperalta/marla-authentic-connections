@@ -1,4 +1,6 @@
 import { motion } from "framer-motion";
+import foto1 from "@/assets/foto1.png";
+import foto2 from "@/assets/foto2.png";
 
 const About = () => {
   return (
@@ -55,14 +57,24 @@ const About = () => {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="relative"
+            className="flex gap-6 items-center justify-center"
           >
-            <div className="aspect-square bg-warm-sand rounded-sm flex items-center justify-center">
-              <span className="text-8xl font-display font-medium text-primary/30 select-none">
-                M&L
-              </span>
+            <div className="relative">
+              <img
+                src={foto1}
+                alt="Martina Lometti"
+                className="w-52 h-52 md:w-64 md:h-64 rounded-full object-cover shadow-lg"
+              />
+              <p className="text-center mt-3 text-sm font-body text-muted-foreground">Martina</p>
             </div>
-            <div className="absolute -top-4 -right-4 w-24 h-24 border border-primary/20 rounded-sm" />
+            <div className="relative">
+              <img
+                src={foto2}
+                alt="Laila Peralta"
+                className="w-52 h-52 md:w-64 md:h-64 rounded-full object-cover shadow-lg"
+              />
+              <p className="text-center mt-3 text-sm font-body text-muted-foreground">Laila</p>
+            </div>
           </motion.div>
         </div>
       </div>
