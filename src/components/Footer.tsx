@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-6 lg:px-16">
         <div className="grid md:grid-cols-3 gap-12 items-start">
           <div className="space-y-4">
-            <img src={marlaLogo} alt="MARLA" className="h-12 w-auto object-contain" />
+            <img src={marlaLogo} alt="MARLA" className="h-14 w-auto object-contain" />
             <p className="font-body text-sm text-muted-foreground max-w-xs">
               Agencia de UGC y Marketing Digital. Contenido auténtico que conecta.
             </p>
