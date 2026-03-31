@@ -16,7 +16,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
       <div className="container mx-auto px-6 lg:px-16 flex items-center justify-between h-20">
         <a href="#" className="flex items-center">
-          <img src={marlaLogo} alt="MARLA" className="h-20 w-auto object-contain" />
+          <img src={marlaLogo} alt="MARLA" className="h-40 w-auto object-contain" />
         </a>
 
         {/* Desktop */}
