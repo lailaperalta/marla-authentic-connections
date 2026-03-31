@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 
 const reels = [
-  "DWUl-3KD_sC",
   "DVe1m0cERRc",
   "DVMh9dRjwue",
   "DUWhWEgj366",
