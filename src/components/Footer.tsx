@@ -30,8 +30,8 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="font-display text-lg text-foreground">Contacto</h4>
             <div className="flex flex-col gap-2 text-sm font-body text-muted-foreground">
-              <a href="mailto:hola@marla.agency" className="hover:text-foreground transition-colors">
-                hola@marla.agency
+              <a href="mailto:marlaaggency@gmail.com" className="hover:text-foreground transition-colors">
+                marlaaggency@gmail.com
               </a>
               <a
                 href="https://instagram.com/marla.agency"
