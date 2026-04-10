@@ -12,7 +12,7 @@ const categories: Category[] = [
   {
     id: "redes",
     label: "Redes Sociales",
-    description: "Contenido orgánico estilo lifestyle que transmite autenticidad, storytelling, tendencias y experiencias reales.",
+    description: "Contenido orgánico estilo de vida que transmite autenticidad, storytelling, tendencias y experiencias reales.",
     videos: ["z48Y0VGyZcg"],
   },
   {
