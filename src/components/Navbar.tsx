@@ -7,6 +7,7 @@ const Navbar = () => {
 
   const links = [
     { label: "Servicios", href: "#servicios" },
+    { label: "Portfolio", href: "#portfolio" },
     { label: "Por qué elegirnos", href: "#porque" },
     { label: "Nosotras", href: "#nosotras" },
     { label: "Contacto", href: "#contacto" },
