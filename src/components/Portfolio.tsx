@@ -25,7 +25,7 @@ const categories: Category[] = [
     id: "product",
     label: "Product Showcase",
     description: "Videos centrados en el producto: unboxing, demostraciones, tomas detalle y contenido e-commerce.",
-    videos: ["MbJDLduYy9M", "49QUbT_iJN0", "7UE5fs0IWYc"],
+    videos: ["MbJDLduYy9M", "49QUbT_iJN0", "7UE5fs0IWYc", "z48Y0VGyZcg"],
   },
   {
     id: "educativo",
@@ -37,7 +37,7 @@ const categories: Category[] = [
     id: "lifestyle",
     label: "Lifestyle & Brand",
     description: "Contenido que humaniza la marca: storytelling lifestyle, integración del producto y conexión emocional.",
-    videos: ["qkhfGOgVYtc", "z48Y0VGyZcg"],
+    videos: ["qkhfGOgVYtc"],
   },
 ];
 
