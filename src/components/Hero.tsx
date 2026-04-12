@@ -66,7 +66,7 @@ const Hero = () => {
               className="inline-flex items-center gap-2 px-5 py-3 bg-[hsl(142,70%,40%)] text-white font-body text-sm rounded-sm hover:opacity-90 transition-opacity"
             >
               <MessageCircle size={18} />
-              Martina
+              Laila
             </a>
             <a
               href="https://wa.me/5492974098096"
@@ -75,7 +75,7 @@ const Hero = () => {
               className="inline-flex items-center gap-2 px-5 py-3 bg-[hsl(142,70%,40%)] text-white font-body text-sm rounded-sm hover:opacity-90 transition-opacity"
             >
               <MessageCircle size={18} />
-              Laila
+              Martina
             </a>
           </div>
         </motion.div>
