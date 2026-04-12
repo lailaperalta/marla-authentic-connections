@@ -61,17 +61,17 @@ const Hero = () => {
                 href="https://wa.me/5492974098096"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-[hsl(142,70%,40%)] flex items-center justify-center text-white hover:scale-110 transition-transform shadow-lg"
+                className="w-14 h-14 rounded-full bg-[hsl(142,70%,40%)] flex items-center justify-center text-white hover:scale-110 transition-transform shadow-lg"
               >
-                <MessageCircle size={20} />
+                <MessageCircle size={28} />
               </a>
               <a
                 href="https://wa.me/5491131060169"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-[hsl(142,70%,40%)] flex items-center justify-center text-white hover:scale-110 transition-transform shadow-lg"
+                className="w-14 h-14 rounded-full bg-[hsl(142,70%,40%)] flex items-center justify-center text-white hover:scale-110 transition-transform shadow-lg"
               >
-                <MessageCircle size={20} />
+                <MessageCircle size={28} />
               </a>
             </div>
           </div>
