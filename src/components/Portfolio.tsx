@@ -13,13 +13,13 @@ const categories: Category[] = [
     id: "redes",
     label: "Redes Sociales",
     description: "Contenido orgánico estilo de vida que transmite autenticidad, storytelling, tendencias y experiencias reales.",
-    videos: ["z48Y0VGyZcg"],
+    videos: ["LF5KR9OlrbM", "9TuK_54edQw", "eiFYI_y0gVg"],
   },
   {
     id: "ads",
     label: "Performance & Ads",
     description: "Videos de alta conversión para publicidad paga: reviews, testimoniales y contenido orientado a ventas.",
-    videos: ["GCeS8GIlABo", "Va3fsqkixX4"],
+    videos: ["GCeS8GIlABo", "Va3fsqkixX4", "o3ylRRGQCa0", "1qQ66toWSLM"],
   },
   {
     id: "product",
@@ -31,13 +31,13 @@ const categories: Category[] = [
     id: "educativo",
     label: "Educativo & How-To",
     description: "Videos educativos cortos: beneficios del producto, tutoriales, tips, hacks y guías de uso.",
-    videos: [],
+    videos: ["1yCK_8YDak4"],
   },
   {
     id: "lifestyle",
     label: "Lifestyle & Brand",
     description: "Contenido que humaniza la marca: storytelling lifestyle, integración del producto y conexión emocional.",
-    videos: [],
+    videos: ["qkhfGOgVYtc", "z48Y0VGyZcg"],
   },
 ];
 
