@@ -60,15 +60,6 @@ const Hero = () => {
           <div className="absolute -bottom-6 -left-6 w-32 h-32 border border-primary/30 rounded-sm" />
           <div className="flex gap-4 mt-6 justify-center">
             <a
-              href="https://wa.me/5491131060169"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-5 py-3 bg-[hsl(142,70%,40%)] text-white font-body text-sm rounded-sm hover:opacity-90 transition-opacity"
-            >
-              <MessageCircle size={18} />
-              Laila
-            </a>
-            <a
               href="https://wa.me/5492974098096"
               target="_blank"
               rel="noopener noreferrer"
@@ -76,6 +67,15 @@ const Hero = () => {
             >
               <MessageCircle size={18} />
               Martina
+            </a>
+            <a
+              href="https://wa.me/5491131060169"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-5 py-3 bg-[hsl(142,70%,40%)] text-white font-body text-sm rounded-sm hover:opacity-90 transition-opacity"
+            >
+              <MessageCircle size={18} />
+              Laila
             </a>
           </div>
         </motion.div>
