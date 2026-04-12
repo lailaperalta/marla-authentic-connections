@@ -39,6 +39,12 @@ const categories: Category[] = [
     description: "Contenido que humaniza la marca: storytelling lifestyle, integración del producto y conexión emocional.",
     videos: ["qkhfGOgVYtc"],
   },
+  {
+    id: "business",
+    label: "Business Content",
+    description: "Contenido creado en locación para empresas, restaurantes y marcas, mostrando espacios, equipos de trabajo, servicios y experiencias reales de clientes a través de un storytelling auténtico y humano.",
+    videos: [],
+  },
 ];
 
 const container = {
