@@ -37,7 +37,7 @@ const categories: Category[] = [
     id: "lifestyle",
     label: "Lifestyle & Brand",
     description: "Contenido que humaniza la marca: storytelling lifestyle, integración del producto y conexión emocional.",
-    videos: ["qkhfGOgVYtc", "z48Y0VGyZcg"],
+    videos: ["qkhfGOgVYtc"],
   },
 ];
 
