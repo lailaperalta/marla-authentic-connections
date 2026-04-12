@@ -48,7 +48,7 @@ const Hero = () => {
           transition={{ duration: 1, delay: 0.3, ease: "easeOut" }}
           className="relative"
         >
-          <div className="aspect-[4/5] overflow-hidden rounded-sm">
+          <div className="aspect-[4/5] overflow-hidden rounded-sm relative">
             <img
               src={heroImage}
               alt="Workspace creativo de MARLA agency"
@@ -56,27 +56,24 @@ const Hero = () => {
               width={1280}
               height={960}
             />
-          </div>
-          <div className="absolute -bottom-6 -left-6 w-32 h-32 border border-primary/30 rounded-sm" />
-          <div className="flex gap-4 mt-6 justify-center">
-            <a
-              href="https://wa.me/5492974098096"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-5 py-3 bg-[hsl(142,70%,40%)] text-white font-body text-sm rounded-sm hover:opacity-90 transition-opacity"
-            >
-              <MessageCircle size={18} />
-              Martina
-            </a>
-            <a
-              href="https://wa.me/5491131060169"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-5 py-3 bg-[hsl(142,70%,40%)] text-white font-body text-sm rounded-sm hover:opacity-90 transition-opacity"
-            >
-              <MessageCircle size={18} />
-              Laila
-            </a>
+            <div className="absolute top-4 right-4 flex gap-3">
+              <a
+                href="https://wa.me/5492974098096"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full bg-[hsl(142,70%,40%)] flex items-center justify-center text-white hover:scale-110 transition-transform shadow-lg"
+              >
+                <MessageCircle size={20} />
+              </a>
+              <a
+                href="https://wa.me/5491131060169"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full bg-[hsl(142,70%,40%)] flex items-center justify-center text-white hover:scale-110 transition-transform shadow-lg"
+              >
+                <MessageCircle size={20} />
+              </a>
+            </div>
           </div>
         </motion.div>
       </div>
