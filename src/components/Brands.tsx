@@ -3,46 +3,43 @@ import { motion } from "framer-motion";
 interface Brand {
   name: string;
   logo: string;
-  scale: number; // optical balance scale factor
+  scale: number; // optical balance: wide logos smaller, thin logos larger
 }
 
 const brands: Brand[] = [
-  // Wide/horizontal logos → smaller scale
-  { name: "La Roche-Posay", logo: "https://logo.clearbit.com/laroche-posay.com", scale: 0.95 },
-  { name: "Bagovit", logo: "https://logo.clearbit.com/bagovit.com.ar", scale: 0.85 },
-  { name: "Megatone", logo: "https://logo.clearbit.com/megatone.net", scale: 0.9 },
-  { name: "Interseller", logo: "https://logo.clearbit.com/interseller.io", scale: 0.85 },
-  { name: "Armytech", logo: "https://logo.clearbit.com/armytech.com.ar", scale: 0.85 },
-  { name: "Intektoys", logo: "https://logo.clearbit.com/intektoys.com", scale: 0.85 },
-  { name: "Buho", logo: "https://logo.clearbit.com/buho.la", scale: 0.8 },
-  { name: "Levys Bazar", logo: "https://logo.clearbit.com/levysbazar.com", scale: 0.85 },
-  { name: "Concesionaria SVA", logo: "https://logo.clearbit.com/sva.com.ar", scale: 0.9 },
-  { name: "Cosméticos Debbie", logo: "https://logo.clearbit.com/cosmeticosdebbie.com", scale: 0.85 },
-  { name: "Detodito", logo: "https://logo.clearbit.com/detodito.com.ar", scale: 0.85 },
-  { name: "TryAxon", logo: "https://logo.clearbit.com/axonarg.com", scale: 0.85 },
-  { name: "Vichy", logo: "https://logo.clearbit.com/vichy.com", scale: 0.85 },
-  { name: "La Puissance", logo: "https://logo.clearbit.com/lapuissance.com.ar", scale: 0.9 },
-  { name: "Ligero", logo: "https://logo.clearbit.com/ligero.com.ar", scale: 0.85 },
-  { name: "L'Oréal Elvive", logo: "https://logo.clearbit.com/loreal.com", scale: 0.95 },
-  { name: "Pantene", logo: "https://logo.clearbit.com/pantene.com", scale: 0.9 },
-  { name: "Colgate", logo: "https://logo.clearbit.com/colgate.com", scale: 0.95 },
-  { name: "Campari", logo: "https://logo.clearbit.com/campari.com", scale: 0.9 },
-  { name: "Aperol", logo: "https://logo.clearbit.com/aperol.com", scale: 0.85 },
-  { name: "REVA", logo: "https://logo.clearbit.com/reva.com", scale: 0.8 },
-  { name: "Berry Investing", logo: "https://logo.clearbit.com/berryinvesting.com", scale: 0.85 },
-  { name: "Bloomei", logo: "https://logo.clearbit.com/bloomei.com", scale: 0.85 },
-  { name: "CTRL Recovery", logo: "https://logo.clearbit.com/ctrlrecovery.com", scale: 0.85 },
-  { name: "Neumáticos Corral", logo: "https://logo.clearbit.com/neumaticoscorral.com", scale: 0.9 },
-  { name: "Alpina", logo: "https://logo.clearbit.com/alpina.com", scale: 0.85 },
-  { name: "Natura", logo: "https://logo.clearbit.com/natura.com.br", scale: 0.9 },
-  { name: "Las Margaritas", logo: "https://logo.clearbit.com/lasmargaritas.com.ar", scale: 0.85 },
-  { name: "Pilsar", logo: "https://logo.clearbit.com/pilsar.com.ar", scale: 0.85 },
-  { name: "Farmacia Leloir", logo: "https://logo.clearbit.com/farmacialeloir.com.ar", scale: 0.85 },
-  { name: "Gadnic", logo: "https://logo.clearbit.com/gadnic.com.ar", scale: 0.85 },
-  { name: "Tevelam", logo: "https://logo.clearbit.com/tevelam.com", scale: 0.85 },
-  { name: "Larpon", logo: "https://logo.clearbit.com/larpon.com.ar", scale: 0.85 },
-  { name: "Mercado Libre", logo: "https://logo.clearbit.com/mercadolibre.com", scale: 0.95 },
-  { name: "Santa Clara", logo: "https://logo.clearbit.com/santaclara.com.ar", scale: 0.85 },
+  // Row-balanced order for visual variety
+  { name: "La Roche-Posay", logo: "/brands/larocheposay.png", scale: 0.95 },
+  { name: "Bagovit", logo: "/brands/bagovit.png", scale: 0.85 },
+  { name: "Megatone", logo: "/brands/megatone.png", scale: 0.8 },
+  { name: "Interseller", logo: "/brands/interseller.png", scale: 0.75 },
+  { name: "Armytech", logo: "/brands/armytech.png", scale: 0.85 },
+  { name: "Playmobil", logo: "/brands/playmobil.png", scale: 0.85 },
+  { name: "Hot Wheels", logo: "/brands/hotwheels.png", scale: 0.9 },
+  { name: "Bigland", logo: "/brands/bigland.png", scale: 0.9 },
+  { name: "Levys Bazar", logo: "/brands/levysbazar.png", scale: 0.8 },
+  { name: "Concesionaria SVA", logo: "/brands/sva.png", scale: 0.8 },
+  { name: "Cosméticos Debbie", logo: "/brands/debbie.png", scale: 0.9 },
+  { name: "Detodito", logo: "/brands/detodito.png", scale: 0.9 },
+  { name: "TryAxon", logo: "/brands/axon.png", scale: 0.75 },
+  { name: "Vichy", logo: "/brands/vichy.png", scale: 0.9 },
+  { name: "La Puissance", logo: "/brands/lapuissance.png", scale: 0.85 },
+  { name: "Ligero", logo: "/brands/ligero.png", scale: 0.7 },
+  { name: "Pantene", logo: "/brands/pantene.png", scale: 0.8 },
+  { name: "Colgate", logo: "/brands/colgate.png", scale: 0.9 },
+  { name: "Campari", logo: "/brands/campari.png", scale: 0.85 },
+  { name: "Aperol", logo: "/brands/aperol.png", scale: 0.75 },
+  { name: "REVA", logo: "/brands/reva.png", scale: 0.7 },
+  { name: "Berry Investing", logo: "/brands/berryinvesting.png", scale: 0.7 },
+  { name: "Bloomei", logo: "/brands/bloomei.png", scale: 0.7 },
+  { name: "CTRL Recovery", logo: "/brands/ctrl.png", scale: 0.9 },
+  { name: "Neumáticos Corral", logo: "/brands/corral.png", scale: 0.7 },
+  { name: "Natura", logo: "/brands/natura.png", scale: 0.75 },
+  { name: "Las Margaritas", logo: "/brands/lasmargaritas.png", scale: 0.7 },
+  { name: "Farmacia Leloir", logo: "/brands/leloir.png", scale: 0.8 },
+  { name: "Gadnic", logo: "/brands/gadnic.png", scale: 0.95 },
+  { name: "Tevelam", logo: "/brands/tevelam.png", scale: 0.7 },
+  { name: "Mercado Libre", logo: "/brands/mercadolibre.png", scale: 0.75 },
+  { name: "Santa Clara", logo: "/brands/santaclara.png", scale: 0.85 },
 ];
 
 const container = {
@@ -54,47 +51,6 @@ const item = {
   hidden: { opacity: 0, y: 20 },
   show: { opacity: 1, y: 0, transition: { duration: 0.4 } },
 };
-
-const BrandLogo = ({ brand }: { brand: Brand }) => {
-  const [imgError, setImgError] = React.useState(false);
-
-  if (imgError) {
-    // Fallback: clean typographic logo
-    return (
-      <div
-        className="flex items-center justify-center group"
-        style={{ width: 120, height: 60 }}
-      >
-        <span
-          className="font-display font-semibold text-foreground/40 group-hover:text-foreground transition-all duration-300 text-center leading-tight"
-          style={{ fontSize: brand.name.length > 12 ? 11 : 13 }}
-        >
-          {brand.name}
-        </span>
-      </div>
-    );
-  }
-
-  return (
-    <div
-      className="flex items-center justify-center group"
-      style={{ width: 120, height: 60 }}
-    >
-      <img
-        src={brand.logo}
-        alt={brand.name}
-        onError={() => setImgError(true)}
-        className="max-w-full max-h-full object-contain grayscale opacity-50 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-300"
-        style={{
-          transform: `scale(${brand.scale})`,
-        }}
-        loading="lazy"
-      />
-    </div>
-  );
-};
-
-import React from "react";
 
 const Brands = () => {
   return (
@@ -120,11 +76,21 @@ const Brands = () => {
           initial="hidden"
           whileInView="show"
           viewport={{ once: true }}
-          className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-7 gap-8 md:gap-10 max-w-6xl mx-auto items-center justify-items-center"
+          className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-8 gap-8 md:gap-10 max-w-6xl mx-auto items-center justify-items-center"
         >
           {brands.map((brand) => (
-            <motion.div key={brand.name} variants={item}>
-              <BrandLogo brand={brand} />
+            <motion.div
+              key={brand.name}
+              variants={item}
+              className="flex items-center justify-center w-[80px] h-[60px] md:w-[100px] md:h-[70px] group"
+            >
+              <img
+                src={brand.logo}
+                alt={brand.name}
+                className="max-w-full max-h-full object-contain grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-300"
+                style={{ transform: `scale(${brand.scale})` }}
+                loading="lazy"
+              />
             </motion.div>
           ))}
         </motion.div>
