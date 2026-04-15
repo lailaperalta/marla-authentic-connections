@@ -40,6 +40,7 @@ const brands: Brand[] = [
   { name: "Tevelam", logo: "/brands/tevelam.png", scale: 0.7 },
   { name: "Mercado Libre", logo: "/brands/mercadolibre.png", scale: 0.75 },
   { name: "Santa Clara", logo: "/brands/santaclara.png", scale: 0.85 },
+  { name: "Be Sembol", logo: "/brands/besembol.png", scale: 0.8 },
 ];
 
 const container = {
