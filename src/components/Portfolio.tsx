@@ -19,19 +19,19 @@ const categories: Category[] = [
     id: "ads",
     label: "Performance & Ads",
     description: "Videos de alta conversión para publicidad paga: reviews, testimoniales y contenido orientado a ventas.",
-    videos: ["o3ylRRGQCa0", "1qQ66toWSLM", "GCeS8GIlABo", "Va3fsqkixX4"],
+    videos: ["o3ylRRGQCa0", "1qQ66toWSLM", "GCeS8GIlABo", "Va3fsqkixX4", "TFlHcsiOLr8"],
   },
   {
     id: "product",
     label: "Product Showcase",
     description: "Videos centrados en el producto: unboxing, demostraciones, tomas detalle y contenido e-commerce.",
-    videos: ["MbJDLduYy9M", "49QUbT_iJN0", "7UE5fs0IWYc", "z48Y0VGyZcg"],
+    videos: ["MbJDLduYy9M", "49QUbT_iJN0", "7UE5fs0IWYc", "z48Y0VGyZcg", "VQB66X6WRnQ", "y0W-_YYGlYc"],
   },
   {
     id: "educativo",
     label: "Educativo & How-To",
     description: "Videos educativos cortos: beneficios del producto, tutoriales, tips, hacks y guías de uso.",
-    videos: ["1yCK_8YDak4"],
+    videos: ["1yCK_8YDak4", "_fJCmWvQ0lw", "EkL_WxvCqic", "oH-NHsYCttg"],
   },
   {
     id: "lifestyle",
@@ -43,7 +43,7 @@ const categories: Category[] = [
     id: "business",
     label: "Business Content",
     description: "Contenido creado en locación para empresas, restaurantes y marcas, mostrando espacios, equipos de trabajo, servicios y experiencias reales de clientes a través de un storytelling auténtico y humano.",
-    videos: [],
+    videos: ["XFt3lVlrT60", "iDhWL8QSfas", "jyHUC7-Nsw0", "gC41WPwtD_8"],
   },
 ];
 
