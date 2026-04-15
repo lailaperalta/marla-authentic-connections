@@ -19,7 +19,7 @@ const categories: Category[] = [
     id: "ads",
     label: "Performance & Ads",
     description: "Videos de alta conversión para publicidad paga: reviews, testimoniales y contenido orientado a ventas.",
-    videos: ["o3ylRRGQCa0", "1qQ66toWSLM", "GCeS8GIlABo", "Va3fsqkixX4", "TFlHcsiOLr8"],
+    videos: ["o3ylRRGQCa0", "TFlHcsiOLr8", "1qQ66toWSLM", "GCeS8GIlABo", "Va3fsqkixX4"],
   },
   {
     id: "product",
