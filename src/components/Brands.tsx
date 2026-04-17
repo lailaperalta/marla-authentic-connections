@@ -1,43 +1,38 @@
 import { motion } from "framer-motion";
 
-interface Brand {
-  name: string;
-  logo: string;
-}
-
-const brands: Brand[] = [
-  { name: "Vichy", logo: "/brands/vichy.png" },
-  { name: "Santa Clara", logo: "/brands/santaclara.png" },
-  { name: "Mercado Libre", logo: "/brands/mercadolibre.png" },
-  { name: "Tevelam", logo: "/brands/tevelam.png" },
-  { name: "Gadnic", logo: "/brands/gadnic.png" },
-  { name: "Farmacia Leloir", logo: "/brands/leloir.png" },
-  { name: "Las Margaritas", logo: "/brands/lasmargaritas.png" },
-  { name: "Natura", logo: "/brands/natura.png" },
-  { name: "Neumáticos Corral", logo: "/brands/corral.png" },
-  { name: "CTRL Recovery", logo: "/brands/ctrl.png" },
-  { name: "Bloomei", logo: "/brands/bloomei.png" },
-  { name: "Berry Investing", logo: "/brands/berryinvesting.png" },
-  { name: "REVA", logo: "/brands/reva.png" },
-  { name: "Aperol", logo: "/brands/aperol.png" },
-  { name: "Campari", logo: "/brands/campari.png" },
-  { name: "Colgate", logo: "/brands/colgate.png" },
-  { name: "L'Oréal Elvive", logo: "/brands/elvive.png" },
-  { name: "La Puissance", logo: "/brands/lapuissance.png" },
-  { name: "TryAxon", logo: "/brands/axon.png" },
-  { name: "Cosméticos Debbie", logo: "/brands/debbie.png" },
-  { name: "Detodito", logo: "/brands/detodito.png" },
-  { name: "Bigland", logo: "/brands/bigland.png" },
-  { name: "La Roche-Posay", logo: "/brands/larocheposay.png" },
-  { name: "Concesionaria SVA", logo: "/brands/sva.png" },
-  { name: "Bagovit", logo: "/brands/bagovit.png" },
-  { name: "Megatone", logo: "/brands/megatone.png" },
-  { name: "Interseller", logo: "/brands/interseller.png" },
-  { name: "Armytech", logo: "/brands/armytech.png" },
-  { name: "Hot Wheels", logo: "/brands/hotwheels.png" },
-  { name: "Playmobil", logo: "/brands/playmobil.png" },
-  { name: "Levys Bazar", logo: "/brands/levysbazar.png" },
-  { name: "Be Sembol", logo: "/brands/besembol.png" },
+const brands: string[] = [
+  "Vichy",
+  "Santa Clara",
+  "Mercado Libre",
+  "Tevelam",
+  "Gadnic",
+  "Farmacia Leloir",
+  "Las Margaritas",
+  "Natura",
+  "Neumáticos Corral",
+  "CTRL Recovery",
+  "Bloomei",
+  "Berry Investing",
+  "REVA",
+  "Aperol",
+  "Campari",
+  "Colgate",
+  "L'Oréal Elvive",
+  "La Puissance",
+  "TryAxon",
+  "Cosméticos Debbie",
+  "Detodito",
+  "Bigland",
+  "La Roche-Posay",
+  "Concesionaria SVA",
+  "Bagovit",
+  "Megatone",
+  "Interseller",
+  "Armytech",
+  "Hot Wheels",
+  "Playmobil",
+  "Levys Bazar",
+  "Be Sembol",
 ];
 
 const container = {
@@ -74,21 +69,16 @@ const Brands = () => {
           initial="hidden"
           whileInView="show"
           viewport={{ once: true }}
-          className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-8 gap-8 md:gap-10 max-w-6xl mx-auto items-center justify-items-center"
+          className="flex flex-wrap justify-center gap-3 md:gap-4 max-w-5xl mx-auto"
         >
           {brands.map((brand) => (
-            <motion.div
-              key={brand.name}
+            <motion.span
+              key={brand}
               variants={item}
-              className="flex items-center justify-center w-[80px] h-[60px] md:w-[100px] md:h-[70px] group cursor-pointer"
+              className="px-5 py-2.5 rounded-full border border-border bg-card text-foreground text-sm md:text-base font-body transition-all duration-300 hover:border-primary hover:text-primary hover:-translate-y-0.5 cursor-default"
             >
-              <img
-                src={brand.logo}
-                alt={brand.name}
-                className="max-w-full max-h-full object-contain transition-all duration-300 ease-in-out grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-110"
-                loading="lazy"
-              />
-            </motion.div>
+              {brand}
+            </motion.span>
           ))}
         </motion.div>
       </div>
