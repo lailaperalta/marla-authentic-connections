@@ -13,7 +13,7 @@ const categories: Category[] = [
     id: "redes",
     label: "Redes Sociales",
     description: "Contenido orgánico estilo de vida que transmite autenticidad, storytelling, tendencias y experiencias reales.",
-    videos: ["LF5KR9OlrbM", "9TuK_54edQw", "eiFYI_y0gVg", "iDhWL8QSfas", "i9KAMvFFVg4"],
+    videos: ["LF5KR9OlrbM", "9TuK_54edQw", "eiFYI_y0gVg", "i9KAMvFFVg4"],
   },
   {
     id: "ads",
@@ -43,7 +43,7 @@ const categories: Category[] = [
     id: "business",
     label: "Business Content",
     description: "Contenido creado en locación para empresas, restaurantes y marcas, mostrando espacios, equipos de trabajo, servicios y experiencias reales de clientes a través de un storytelling auténtico y humano.",
-    videos: ["XFt3lVlrT60", "jyHUC7-Nsw0", "gC41WPwtD_8"],
+    videos: ["XFt3lVlrT60", "iDhWL8QSfas", "jyHUC7-Nsw0", "gC41WPwtD_8"],
   },
 ];
 
