@@ -13,7 +13,7 @@ const categories: Category[] = [
     id: "redes",
     label: "Redes Sociales",
     description: "Contenido orgánico estilo de vida que transmite autenticidad, storytelling, tendencias y experiencias reales.",
-    videos: ["LF5KR9OlrbM", "9TuK_54edQw", "eiFYI_y0gVg"],
+    videos: ["LF5KR9OlrbM", "9TuK_54edQw", "eiFYI_y0gVg", "iDhWL8QSfas", "i9KAMvFFVg4"],
   },
   {
     id: "ads",
@@ -25,25 +25,25 @@ const categories: Category[] = [
     id: "product",
     label: "Product Showcase",
     description: "Videos centrados en el producto: unboxing, demostraciones, tomas detalle y contenido e-commerce.",
-    videos: ["MbJDLduYy9M", "49QUbT_iJN0", "7UE5fs0IWYc", "z48Y0VGyZcg", "VQB66X6WRnQ", "y0W-_YYGlYc"],
+    videos: ["MbJDLduYy9M", "49QUbT_iJN0", "7UE5fs0IWYc", "z48Y0VGyZcg", "VQB66X6WRnQ", "y0W-_YYGlYc", "oLR0z9eQAAc", "GO8le-JrqeI", "lHq6ToCcAIY", "1g0-K6yzKPc"],
   },
   {
     id: "educativo",
     label: "Educativo & How-To",
     description: "Videos educativos cortos: beneficios del producto, tutoriales, tips, hacks y guías de uso.",
-    videos: ["1yCK_8YDak4", "_fJCmWvQ0lw", "EkL_WxvCqic", "oH-NHsYCttg"],
+    videos: ["1yCK_8YDak4", "_fJCmWvQ0lw", "EkL_WxvCqic", "oH-NHsYCttg", "KJ04tEDThGg"],
   },
   {
     id: "lifestyle",
     label: "Lifestyle & Brand",
     description: "Contenido que humaniza la marca: storytelling lifestyle, integración del producto y conexión emocional.",
-    videos: ["qkhfGOgVYtc"],
+    videos: ["qkhfGOgVYtc", "ovcd7_O_qZs"],
   },
   {
     id: "business",
     label: "Business Content",
     description: "Contenido creado en locación para empresas, restaurantes y marcas, mostrando espacios, equipos de trabajo, servicios y experiencias reales de clientes a través de un storytelling auténtico y humano.",
-    videos: ["XFt3lVlrT60", "iDhWL8QSfas", "jyHUC7-Nsw0", "gC41WPwtD_8"],
+    videos: ["XFt3lVlrT60", "jyHUC7-Nsw0", "gC41WPwtD_8"],
   },
 ];
 
