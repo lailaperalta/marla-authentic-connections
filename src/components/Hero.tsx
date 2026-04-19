@@ -56,22 +56,30 @@ const Hero = () => {
               width={1280}
               height={960}
             />
-            <div className="absolute top-4 right-4 flex gap-3">
+            <div className="absolute top-4 right-4 flex items-center gap-3 bg-background/90 backdrop-blur-sm rounded-full pl-5 pr-3 py-2 shadow-lg">
+              <span className="text-xs md:text-sm font-body uppercase tracking-wider text-foreground hidden sm:inline">
+                Comunicate por WhatsApp
+              </span>
+              <span className="text-xs font-body uppercase tracking-wider text-foreground sm:hidden">
+                WhatsApp
+              </span>
               <a
                 href="https://wa.me/5492974098096"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-14 h-14 rounded-full bg-[hsl(142,70%,40%)] flex items-center justify-center text-white hover:scale-110 transition-transform shadow-lg"
+                aria-label="WhatsApp +54 9 297 409 8096"
+                className="w-16 h-16 rounded-full bg-[hsl(142,70%,40%)] flex items-center justify-center text-white hover:scale-110 transition-transform shadow-md"
               >
-                <MessageCircle size={28} />
+                <MessageCircle size={34} />
               </a>
               <a
                 href="https://wa.me/5491131060169"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-14 h-14 rounded-full bg-[hsl(142,70%,40%)] flex items-center justify-center text-white hover:scale-110 transition-transform shadow-lg"
+                aria-label="WhatsApp +54 9 11 3106 0169"
+                className="w-16 h-16 rounded-full bg-[hsl(142,70%,40%)] flex items-center justify-center text-white hover:scale-110 transition-transform shadow-md"
               >
-                <MessageCircle size={28} />
+                <MessageCircle size={34} />
               </a>
             </div>
           </div>
