@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import foto1 from "@/assets/martina-laila.jpg";
+import foto1 from "@/assets/marla-team.jpg";
 import foto2 from "@/assets/laila-new.jpg";
 
 const About = () => {
