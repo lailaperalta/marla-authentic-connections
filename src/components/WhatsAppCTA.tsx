@@ -2,8 +2,8 @@ import { motion } from "framer-motion";
 import { MessageCircle } from "lucide-react";
 
 const contacts = [
-  { name: "Martina", phone: "+54 9 297 409 8096", href: "https://wa.me/5492974098096" },
-  { name: "Laila", phone: "+54 9 11 3106 0169", href: "https://wa.me/5491131060169" },
+  { name: "Martina", href: "https://wa.me/5492974098096" },
+  { name: "Laila", href: "https://wa.me/5491131060169" },
 ];
 
 const WhatsAppCTA = () => {
@@ -36,13 +36,10 @@ const WhatsAppCTA = () => {
                 href={c.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-3 px-6 py-4 rounded-full bg-[hsl(142,70%,40%)] text-white font-body hover:scale-105 transition-transform shadow-lg"
+                className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-[hsl(142,70%,40%)] text-white font-body hover:scale-105 transition-transform shadow-lg"
               >
                 <MessageCircle size={28} />
-                <div className="text-left">
-                  <p className="text-xs uppercase tracking-wider opacity-90">{c.name}</p>
-                  <p className="text-sm font-medium">{c.phone}</p>
-                </div>
+                <span className="text-base font-medium uppercase tracking-wider">{c.name}</span>
               </a>
             ))}
           </div>

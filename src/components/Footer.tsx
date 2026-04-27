@@ -38,7 +38,7 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   className="block hover:text-foreground transition-colors"
                 >
-                  WhatsApp: +54 9 297 409 8096
+                  WhatsApp
                 </a>
                 <a
                   href="https://instagram.com/martiilometti"
@@ -58,7 +58,7 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   className="block hover:text-foreground transition-colors"
                 >
-                  WhatsApp: +54 9 11 3106 0169
+                  WhatsApp
                 </a>
                 <a
                   href="https://instagram.com/laila.peralta"
