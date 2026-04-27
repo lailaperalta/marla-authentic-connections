@@ -63,7 +63,7 @@ const About = () => {
               <img
                 src={foto1}
                 alt="Martina Lometti"
-                className="w-52 h-52 md:w-64 md:h-64 rounded-full object-cover object-[60%_30%] shadow-lg"
+                className="w-52 h-52 md:w-64 md:h-64 rounded-full object-cover shadow-lg"
               />
               <p className="text-center mt-3 text-sm font-body text-muted-foreground">Martina</p>
             </div>
