@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import WhatsAppCTA from "@/components/WhatsAppCTA";
 import Services from "@/components/Services";
 import Portfolio from "@/components/Portfolio";
 import Book from "@/components/Book";
@@ -13,6 +14,7 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <Navbar />
       <Hero />
+      <WhatsAppCTA />
       <Services />
       <Portfolio />
       <Book />

@@ -29,18 +29,61 @@ const Footer = () => {
 
           <div className="space-y-4">
             <h4 className="font-display text-lg text-foreground">Contacto</h4>
-            <div className="flex flex-col gap-2 text-sm font-body text-muted-foreground">
-              <a href="mailto:marlaaggency@gmail.com" className="hover:text-foreground transition-colors">
-                marlaaggency@gmail.com
-              </a>
-              <a
-                href="https://www.instagram.com/marlaagency?igsh=MXY2ems0bWF6dTByMA=="
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-foreground transition-colors"
-              >
-                @marlaagency
-              </a>
+            <div className="flex flex-col gap-3 text-sm font-body text-muted-foreground">
+              <div className="space-y-1">
+                <p className="text-xs uppercase tracking-wider text-foreground/70">Martina</p>
+                <a
+                  href="https://wa.me/5492974098096"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block hover:text-foreground transition-colors"
+                >
+                  WhatsApp: +54 9 297 409 8096
+                </a>
+                <a
+                  href="https://instagram.com/martiilometti"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block hover:text-foreground transition-colors"
+                >
+                  @martiilometti
+                </a>
+              </div>
+
+              <div className="space-y-1">
+                <p className="text-xs uppercase tracking-wider text-foreground/70">Laila</p>
+                <a
+                  href="https://wa.me/5491131060169"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block hover:text-foreground transition-colors"
+                >
+                  WhatsApp: +54 9 11 3106 0169
+                </a>
+                <a
+                  href="https://instagram.com/laila.peralta"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block hover:text-foreground transition-colors"
+                >
+                  @laila.peralta
+                </a>
+              </div>
+
+              <div className="pt-3 border-t border-border space-y-1">
+                <p className="text-xs uppercase tracking-wider text-foreground/70">MARLA</p>
+                <a href="mailto:marlaaggency@gmail.com" className="block hover:text-foreground transition-colors">
+                  marlaaggency@gmail.com
+                </a>
+                <a
+                  href="https://www.instagram.com/marlaagency?igsh=MXY2ems0bWF6dTByMA=="
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block hover:text-foreground transition-colors"
+                >
+                  @marlaagency
+                </a>
+              </div>
             </div>
           </div>
         </div>
