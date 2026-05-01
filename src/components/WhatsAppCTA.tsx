@@ -36,13 +36,11 @@ const WhatsAppCTA = () => {
                 href={c.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-3 px-6 py-4 rounded-full bg-[hsl(142,70%,40%)] text-white font-body hover:scale-105 transition-transform shadow-lg"
+                aria-label={`WhatsApp ${c.name}`}
+                className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-[hsl(142,70%,40%)] text-white font-body hover:scale-105 transition-transform shadow-lg"
               >
                 <MessageCircle size={28} />
-                <div className="text-left">
-                  <p className="text-xs uppercase tracking-wider opacity-90">{c.name}</p>
-                  <p className="text-sm font-medium">{c.phone}</p>
-                </div>
+                <p className="text-base font-medium">{c.name}</p>
               </a>
             ))}
           </div>
