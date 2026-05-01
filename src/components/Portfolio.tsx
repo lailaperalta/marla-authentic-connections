@@ -13,13 +13,19 @@ const categories: Category[] = [
     id: "redes",
     label: "Redes Sociales",
     description: "Contenido orgánico estilo de vida que transmite autenticidad, storytelling, tendencias y experiencias reales.",
-    videos: ["LF5KR9OlrbM", "9TuK_54edQw", "eiFYI_y0gVg", "i9KAMvFFVg4", "W6ZvAqxglss"],
+    videos: ["LF5KR9OlrbM", "9TuK_54edQw", "eiFYI_y0gVg", "i9KAMvFFVg4", "W6ZvAqxglss", "FrBjVlPQnKE", "YZ_iL95__oE"],
+  },
+  {
+    id: "lifestyle",
+    label: "Lifestyle & Brand",
+    description: "Contenido que humaniza la marca: storytelling lifestyle, integración del producto y conexión emocional.",
+    videos: ["qkhfGOgVYtc", "ovcd7_O_qZs", "-IPwXZtnpUY", "rPr30nA7TrI", "-gJmU4p6lws", "BAKUCVKtzyk"],
   },
   {
     id: "ads",
     label: "Performance & Ads",
     description: "Videos de alta conversión para publicidad paga: reviews, testimoniales y contenido orientado a ventas.",
-    videos: ["o3ylRRGQCa0", "TFlHcsiOLr8", "1qQ66toWSLM", "GCeS8GIlABo", "Va3fsqkixX4", "2pkXoKUHZ2k", "fFTuqoFtaHE"],
+    videos: ["o3ylRRGQCa0", "TFlHcsiOLr8", "1qQ66toWSLM", "GCeS8GIlABo", "Va3fsqkixX4", "2pkXoKUHZ2k", "fFTuqoFtaHE", "vSS41W4aC3g"],
   },
   {
     id: "product",
@@ -32,12 +38,6 @@ const categories: Category[] = [
     label: "Educativo & How-To",
     description: "Videos educativos cortos: beneficios del producto, tutoriales, tips, hacks y guías de uso.",
     videos: ["1yCK_8YDak4", "_fJCmWvQ0lw", "EkL_WxvCqic", "oH-NHsYCttg", "KJ04tEDThGg"],
-  },
-  {
-    id: "lifestyle",
-    label: "Lifestyle & Brand",
-    description: "Contenido que humaniza la marca: storytelling lifestyle, integración del producto y conexión emocional.",
-    videos: ["qkhfGOgVYtc", "ovcd7_O_qZs", "-IPwXZtnpUY", "rPr30nA7TrI"],
   },
   {
     id: "business",
