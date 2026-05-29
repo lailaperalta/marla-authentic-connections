@@ -21,9 +21,9 @@ const WhatsAppCTA = () => {
             <p className="text-sm font-body uppercase tracking-[0.3em] text-primary">
               Hablemos
             </p>
-            <h3 className="text-3xl md:text-4xl font-display font-medium text-foreground">
+            <h2 className="text-3xl md:text-4xl font-display font-medium text-foreground">
               Comunicate con nosotras por WhatsApp
-            </h3>
+            </h2>
             <p className="font-body text-muted-foreground">
               Respondemos rápido y te ayudamos a impulsar tu marca.
             </p>
