@@ -13,25 +13,25 @@ const categories: Category[] = [
     id: "redes",
     label: "Redes Sociales",
     description: "Contenido orgánico estilo de vida que transmite autenticidad, storytelling, tendencias y experiencias reales.",
-    videos: ["LF5KR9OlrbM", "9TuK_54edQw", "eiFYI_y0gVg", "i9KAMvFFVg4", "W6ZvAqxglss", "FrBjVlPQnKE", "YZ_iL95__oE"],
+    videos: ["LF5KR9OlrbM", "9TuK_54edQw", "eiFYI_y0gVg", "i9KAMvFFVg4", "W6ZvAqxglss", "FrBjVlPQnKE", "YZ_iL95__oE", "8UUxmY2tQGo"],
   },
   {
     id: "lifestyle",
     label: "Lifestyle & Brand",
     description: "Contenido que humaniza la marca: storytelling lifestyle, integración del producto y conexión emocional.",
-    videos: ["qkhfGOgVYtc", "ovcd7_O_qZs", "-IPwXZtnpUY", "rPr30nA7TrI", "-gJmU4p6lws", "BAKUCVKtzyk"],
+    videos: ["qkhfGOgVYtc", "ovcd7_O_qZs", "-IPwXZtnpUY", "rPr30nA7TrI", "-gJmU4p6lws", "BAKUCVKtzyk", "wImMATQb74o", "fjyFssUapMA", "CDARJghza2M"],
   },
   {
     id: "ads",
     label: "Performance & Ads",
     description: "Videos de alta conversión para publicidad paga: reviews, testimoniales y contenido orientado a ventas.",
-    videos: ["o3ylRRGQCa0", "TFlHcsiOLr8", "1qQ66toWSLM", "GCeS8GIlABo", "Va3fsqkixX4", "2pkXoKUHZ2k", "fFTuqoFtaHE", "vSS41W4aC3g"],
+    videos: ["o3ylRRGQCa0", "TFlHcsiOLr8", "1qQ66toWSLM", "GCeS8GIlABo", "Va3fsqkixX4", "2pkXoKUHZ2k", "fFTuqoFtaHE", "vSS41W4aC3g", "MJsFAVbLpLs", "EBuRWZGNbUM", "ZMbuEMk9lwM"],
   },
   {
     id: "product",
     label: "Product Showcase",
     description: "Videos centrados en el producto: unboxing, demostraciones, tomas detalle y contenido e-commerce.",
-    videos: ["MbJDLduYy9M", "49QUbT_iJN0", "7UE5fs0IWYc", "z48Y0VGyZcg", "VQB66X6WRnQ", "y0W-_YYGlYc", "oLR0z9eQAAc", "GO8le-JrqeI", "lHq6ToCcAIY", "1g0-K6yzKPc", "CbmRoOnWYDw", "bU71F6tWFgg"],
+    videos: ["MbJDLduYy9M", "49QUbT_iJN0", "7UE5fs0IWYc", "z48Y0VGyZcg", "VQB66X6WRnQ", "y0W-_YYGlYc", "oLR0z9eQAAc", "GO8le-JrqeI", "lHq6ToCcAIY", "1g0-K6yzKPc", "CbmRoOnWYDw", "bU71F6tWFgg", "Hd2JnRzso_I", "2KlMH0CjrFg"],
   },
   {
     id: "educativo",
@@ -43,7 +43,7 @@ const categories: Category[] = [
     id: "business",
     label: "Business Content",
     description: "Contenido creado en locación para empresas, restaurantes y marcas, mostrando espacios, equipos de trabajo, servicios y experiencias reales de clientes a través de un storytelling auténtico y humano.",
-    videos: ["XFt3lVlrT60", "iDhWL8QSfas", "jyHUC7-Nsw0", "gC41WPwtD_8"],
+    videos: ["XFt3lVlrT60", "iDhWL8QSfas", "jyHUC7-Nsw0", "gC41WPwtD_8", "TszPyPfUH5E"],
   },
 ];
 
