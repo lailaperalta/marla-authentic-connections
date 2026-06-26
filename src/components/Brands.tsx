@@ -36,6 +36,14 @@ const brands: string[] = [
   "Playmobil",
   "Levys Bazar",
   "Be Sembol",
+  "Voru",
+  "Bakery",
+  "Head and Shoulders",
+  "Perfuchic",
+  "Blakhanic",
+  "Pedidos Ya",
+  "We Latam",
+  "Fernet Branca",
 ];
 
 const container = {
