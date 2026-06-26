@@ -13,7 +13,7 @@ const categories: Category[] = [
     id: "redes",
     label: "Redes Sociales",
     description: "Contenido orgánico estilo de vida que transmite autenticidad, storytelling, tendencias y experiencias reales.",
-    videos: ["LF5KR9OlrbM", "9TuK_54edQw", "eiFYI_y0gVg", "i9KAMvFFVg4", "W6ZvAqxglss", "FrBjVlPQnKE", "YZ_iL95__oE", "8UUxmY2tQGo"],
+    videos: ["LF5KR9OlrbM", "9TuK_54edQw", "eiFYI_y0gVg", "i9KAMvFFVg4", "W6ZvAqxglss", "FrBjVlPQnKE", "YZ_iL95__oE", "8UUxmY2tQGo", "ESvXEglZypE"],
   },
   {
     id: "lifestyle",
@@ -37,7 +37,7 @@ const categories: Category[] = [
     id: "educativo",
     label: "Educativo & How-To",
     description: "Videos educativos cortos: beneficios del producto, tutoriales, tips, hacks y guías de uso.",
-    videos: ["1yCK_8YDak4", "_fJCmWvQ0lw", "EkL_WxvCqic", "oH-NHsYCttg", "KJ04tEDThGg"],
+    videos: ["1yCK_8YDak4", "_fJCmWvQ0lw", "EkL_WxvCqic", "oH-NHsYCttg", "KJ04tEDThGg", "puIk1FZtmJI", "nfSvO-hx5s8"],
   },
   {
     id: "business",
