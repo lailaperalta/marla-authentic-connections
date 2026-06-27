@@ -37,7 +37,7 @@ const categories: Category[] = [
     id: "educativo",
     label: "Educativo & How-To",
     description: "Videos educativos cortos: beneficios del producto, tutoriales, tips, hacks y guías de uso.",
-    videos: ["1yCK_8YDak4", "_fJCmWvQ0lw", "EkL_WxvCqic", "oH-NHsYCttg", "KJ04tEDThGg", "puIk1FZtmJI", "nfSvO-hx5s8"],
+    videos: ["1yCK_8YDak4", "_fJCmWvQ0lw", "EkL_WxvCqic", "oH-NHsYCttg", "KJ04tEDThGg", "puIk1FZtmJI"],
   },
   {
     id: "business",
