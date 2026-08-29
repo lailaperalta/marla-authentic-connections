@@ -31,7 +31,7 @@ const categories: Category[] = [
     id: "product",
     label: "Product Showcase",
     description: "Videos centrados en el producto: unboxing, demostraciones, tomas detalle y contenido e-commerce.",
-    videos: ["MbJDLduYy9M", "49QUbT_iJN0", "7UE5fs0IWYc", "z48Y0VGyZcg", "VQB66X6WRnQ", "y0W-_YYGlYc", "oLR0z9eQAAc", "GO8le-JrqeI", "lHq6ToCcAIY", "1g0-K6yzKPc", "CbmRoOnWYDw", "bU71F6tWFgg", "Hd2JnRzso_I", "2KlMH0CjrFg"],
+    videos: ["MbJDLduYy9M", "49QUbT_iJN0", "7UE5fs0IWYc", "z48Y0VGyZcg", "VQB66X6WRnQ", "y0W-_YYGlYc", "oLR0z9eQAAc", "GO8le-JrqeI", "lHq6ToCcAIY", "1g0-K6yzKPc", "CbmRoOnWYDw", "bU71F6tWFgg", "Hd2JnRzso_I", "2KlMH0CjrFg", "ntQsNQGz5xg", "BNGYtD4uKk8"],
   },
   {
     id: "educativo",
