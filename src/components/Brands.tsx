@@ -44,6 +44,11 @@ const brands: string[] = [
   "Pedidos Ya",
   "We Latam",
   "Fernet Branca",
+  "Follic",
+  "Violetta Cosméticos",
+  "IEY",
+  "Frilayp",
+  "Indol",
 ];
 
 const container = {
