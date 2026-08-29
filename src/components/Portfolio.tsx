@@ -13,13 +13,13 @@ const categories: Category[] = [
     id: "redes",
     label: "Redes Sociales",
     description: "Contenido orgánico estilo de vida que transmite autenticidad, storytelling, tendencias y experiencias reales.",
-    videos: ["LF5KR9OlrbM", "9TuK_54edQw", "eiFYI_y0gVg", "i9KAMvFFVg4", "W6ZvAqxglss", "FrBjVlPQnKE", "YZ_iL95__oE", "8UUxmY2tQGo", "ESvXEglZypE"],
+    videos: ["LF5KR9OlrbM", "9TuK_54edQw", "eiFYI_y0gVg", "i9KAMvFFVg4", "W6ZvAqxglss", "FrBjVlPQnKE", "YZ_iL95__oE", "8UUxmY2tQGo", "ESvXEglZypE", "plVi5tagAyI", "Nav8A_CDY00", "NCrH2hu6-t4"],
   },
   {
     id: "lifestyle",
     label: "Lifestyle & Brand",
     description: "Contenido que humaniza la marca: storytelling lifestyle, integración del producto y conexión emocional.",
-    videos: ["qkhfGOgVYtc", "ovcd7_O_qZs", "-IPwXZtnpUY", "rPr30nA7TrI", "-gJmU4p6lws", "BAKUCVKtzyk", "wImMATQb74o", "fjyFssUapMA", "CDARJghza2M"],
+    videos: ["qkhfGOgVYtc", "ovcd7_O_qZs", "-IPwXZtnpUY", "rPr30nA7TrI", "-gJmU4p6lws", "BAKUCVKtzyk", "wImMATQb74o", "fjyFssUapMA", "CDARJghza2M", "JFgWzddfLHY", "UPIAXfl0DE8", "_lKpT47e33E"],
   },
   {
     id: "ads",
